@@ -1,0 +1,136 @@
+/* About - css start  */
+
+.about-image-container {
+  border-radius: 5px;
+}
+
+/* media-query-about-css */
+@media only screen and (min-width: 990px) {
+  .about-image-container {
+    padding-top: 120px;
+  }
+  /* /end-of-media-query */
+}
+
+/* about-comapny-visions */
+.insde-container-aboutus {
+  text-align: center;
+}
+.about-i {
+  font-size: 100px;
+  color: #de8f40;
+  padding-bottom: 10px;
+}
+.vision-headng {
+  color: #2c3333;
+  padding: 10px;
+}
+.vision-content {
+  text-align: left;
+  text-align: justify;
+}
+
+.vision-headng:hover {
+  color: #f5c802;
+}
+@media only screen and (max-width: 990px) {
+  .indivdual-vContent {
+    margin-top: 30px;
+  }
+}
+.vision-card-header {
+  color: "#323232";
+  background-color: aliceblue;
+  font-weight: 200;
+  font-size: large;
+  font-weight: bolder;
+  height: 90px;
+  justify-content: end;
+  text-align: center;
+  padding-top: 30px;
+}
+.card {
+  margin-top: 40px;
+}
+.card-body {
+  text-align: left;
+}
+/* end of about us  */
+
+/* start of contact us  */
+.contactMain-i {
+  font-size: 40px;
+  color: #de8f40;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.form-title-contact {
+  padding: 10px;
+  color: #de8f40;
+  width: auto;
+  margin-right: 10px;
+}
+.form-contact-row {
+  padding-top: 40px;
+}
+.form-contact-column {
+  padding: 50px;
+}
+.ch1:hover {
+  color: #de8f40;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.contact-details-icon {
+  font-size: x-large;
+  color: #de8f40;
+  padding-right: 20px;
+  margin-bottom: 2%;
+}
+.card {
+  transition: transform 0.2s;
+}
+.ch-1 {
+  background-color: white;
+}
+.ch-1:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+/* contact - css end  */
+
+/* start f service css  */
+
+.serv-img-1,
+.serv-img-2 {
+  margin: auto;
+
+  height: 200px;
+  width: 300px;
+  width: auto;
+}
+.services-row {
+  padding: 5%;
+  text-align: justify;
+}
+
+.rp-services {
+  padding-left: 20px;
+  width: auto;
+  text-align: justify;
+}
+@media only screen and (max-width: 990px) {
+  .serv-img-1,
+  .serv-img-2 {
+    width: 90%;
+    align-items: center;
+  }
+}
+p > h4 {
+  color: #03045e;
+}

@@ -4,6 +4,7 @@ import Footer from "./Components/Layout/Footer";
 import Navbar from "./Components/Layout/Navbar";
 import About from "./Components/Pages/About";
 import Coming from "./Components/Pages/Coming";
+import Contact from "./Components/Pages/Contact";
 import Home from "./Components/Pages/Home";
 
 function App() {
@@ -27,7 +28,10 @@ function App() {
           <Navbar />
           {/* <Coming /> */}
           <Routes>
-            <Route path='/about' element={<About />} />
+            <Route exact path="/" element={<Home />}></Route>
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/coming" element={<Coming />} />
           </Routes>
           <Footer />
         </React.Fragment>
