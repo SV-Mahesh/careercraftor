@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import "./Pages.css";
 function Home() {
   return (
     <React.Fragment>
@@ -130,9 +130,24 @@ function Home() {
             </div>{" "}
             {/* end of col */}
             <div className="col-lg-6">
-              <div className="text-container">
-                <h2>Career Craftors </h2>
-                <p>
+              <div
+                style={{
+                  fontSize: "110%",
+                }}
+                className="text-container"
+              >
+                <h2
+                  style={{
+                    fontSize: "140%",
+                  }}
+                >
+                  Career Craftors{" "}
+                </h2>
+                <p
+                  style={{
+                    fontSize: "110%",
+                  }}
+                >
                   Career Craftors is a skilled recruitment team that can assist
                   you in effectively sourcing entry-level employment through to
                   senior leadership roles on a
@@ -248,7 +263,7 @@ function Home() {
                       aria-controls="tab-1"
                       aria-selected="true"
                     >
-                      <i class="fas fa-folder-open"></i>
+                      <i class="fas fa-building"></i>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -261,7 +276,7 @@ function Home() {
                       aria-controls="tab-2"
                       aria-selected="false"
                     >
-                      <i class="fas fa-folder-open"></i>
+                      <i class="fas fa-handshake"></i>
                     </a>
                   </li>
                   <li className="nav-item">
@@ -274,7 +289,7 @@ function Home() {
                       aria-controls="tab-3"
                       aria-selected="false"
                     >
-                      <i class="fas fa-folder-open"></i>
+                      <i class="fas fa-bullseye"></i>
                     </a>
                   </li>
                 </ul>
@@ -288,7 +303,13 @@ function Home() {
                     role="tabpanel"
                     aria-labelledby="tab-1"
                   >
-                    <p style={{ lineHeight: "2", paddingTop: "20px" }}>
+                    <p
+                      style={{
+                        lineHeight: "2",
+                        paddingTop: "20px",
+                        fontSize: "110%",
+                      }}
+                    >
                       <strong>CAREER CRAFTORS</strong> is a boutique recruitment
                       and métier profiling agency specializing in finding the
                       right people for the right jobs across the globe. We stand
@@ -305,7 +326,13 @@ function Home() {
                     role="tabpanel"
                     aria-labelledby="tab-2"
                   >
-                    <p style={{ lineHeight: "2", paddingTop: "20px" }}>
+                    <p
+                      style={{
+                        lineHeight: "2",
+                        paddingTop: "20px",
+                        fontSize: "110%",
+                      }}
+                    >
                       <strong>We offer</strong> Permanent placements and
                       temporary employment(internships) are our main activities,
                       whether for one-time or ongoing staffing needs. We hire at
@@ -322,7 +349,13 @@ function Home() {
                     role="tabpanel"
                     aria-labelledby="tab-3"
                   >
-                    <p style={{ lineHeight: "2", paddingTop: "20px" }}>
+                    <p
+                      style={{
+                        lineHeight: "2",
+                        paddingTop: "20px",
+                        fontSize: "110%",
+                      }}
+                    >
                       <strong>We proud of</strong> More and more blue-chip
                       organizations, SME's, and innovative start-ups are turning
                       to Career Craftors for recruitment solutions and
@@ -365,7 +398,10 @@ function Home() {
           <div className="row">
             <div className="col-lg-12">
               <h2>Our Vision</h2>
-              <p className="p-heading">
+              <p
+                style={{ textAlign: "justify", fontSize: "110%" }}
+                className="p-heading"
+              >
                 Career Craftors' mission is to empower our candidates (freshers,
                 graduates, and experienced) to find and pursue a satisfying
                 career path so that they can leave their imprint on the world.
@@ -375,7 +411,7 @@ function Home() {
           </div>{" "}
           {/* end of div */}
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-5">
               <ul className="list-unstyled li-space-lg first">
                 <li className="media">
                   <span className="fa-stack">
@@ -384,7 +420,7 @@ function Home() {
                   </span>
                   <div className="media-body">
                     <h4>We are Metors</h4>
-                    <p>
+                    <p className="home-vision-p">
                       Learning isn't limited to the classroom. We work with
                       students at any point in their professional growth. We
                       train students and partners how to navigate the workplace
@@ -398,7 +434,7 @@ function Home() {
                   </span>
                   <div className="media-body">
                     <h4>We form bonds</h4>
-                    <p>
+                    <p className="home-vision-p">
                       with those we serve by sharing our knowledge, experience,
                       connections, and enthusiasm. Our valued connections foster
                       relationships, fostering professions that encourage a
@@ -409,7 +445,7 @@ function Home() {
               </ul>
             </div>{" "}
             {/* end of col */}
-            <div className="col-lg-3"></div> {/* end of col */}
+            <div className="col-lg-1"></div> {/* end of col */}
             <div className="col-lg-5">
               <ul className="list-unstyled li-space-lg">
                 <li className="media">
@@ -419,7 +455,7 @@ function Home() {
                   </span>
                   <div className="media-body">
                     <h4>We are communicatable</h4>
-                    <p>
+                    <p className="home-vision-p">
                       We respect your feedback and enhance ourselves for the
                       betterment of you
                     </p>
@@ -432,7 +468,7 @@ function Home() {
                   </span>
                   <div className="media-body">
                     <h4>Get Things Done</h4>
-                    <p>
+                    <p className="home-vision-p">
                       assisting students in determining their goals and
                       assisting them in achieving them. We encourage and
                       challenge students to strive for greater heights. Every
@@ -465,38 +501,38 @@ function Home() {
               <div id="counter">
                 <div className="cell">
                   <i className="fas fa-users" />
-                  <div className="counter-value number-count" data-count={231}>
+                  {/* <div className="counter-value number-count" data-count={231}>
                     1
                   </div>
-                  <p className="counter-info">Happy Users</p>
+                  <p className="counter-info">Happy Users</p> */}
                 </div>
                 <div className="cell">
                   <i className="fas fa-code green" />
-                  <div className="counter-value number-count" data-count={385}>
+                  {/* <div className="counter-value number-count" data-count={385}>
                     1
                   </div>
-                  <p className="counter-info">Issues Solved</p>
+                  <p className="counter-info">Issues Solved</p> */}
                 </div>
                 <div className="cell">
                   <i className="fas fa-cog red" />
-                  <div className="counter-value number-count" data-count={159}>
+                  {/* <div className="counter-value number-count" data-count={159}>
                     1
                   </div>
-                  <p className="counter-info">Good Reviews</p>
+                  <p className="counter-info">Good Reviews</p> */}
                 </div>
                 <div className="cell">
                   <i className="fas fa-comments yellow" />
-                  <div className="counter-value number-count" data-count={127}>
+                  {/* <div className="counter-value number-count" data-count={127}>
                     1
                   </div>
-                  <p className="counter-info">Case Studies</p>
+                  <p className="counter-info">Case Studies</p> */}
                 </div>
                 <div className="cell">
                   <i className="fas fa-rocket blue" />
-                  <div className="counter-value number-count" data-count={211}>
+                  {/* <div className="counter-value number-count" data-count={211}>
                     1
                   </div>
-                  <p className="counter-info">Orders Received</p>
+                  <p className="counter-info">Orders Received</p> */}
                 </div>
               </div>
               {/* end of counter */}
@@ -523,7 +559,14 @@ function Home() {
                 />
               </div>{" "}
               {/* end of image-container */}
-              <p className="p-large">
+              <p
+                style={{
+                  lineHeight: "2",
+                  textAlign: "justify",
+                  fontSize: "120%",
+                }}
+                className="p-large"
+              >
                 We were the first to introduce the concept of professional
                 talent solutions, and as the needs of businesses have changed,
                 so have we. Our management team saw the value in shifting to a

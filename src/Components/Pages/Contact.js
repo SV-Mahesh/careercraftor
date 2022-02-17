@@ -28,7 +28,11 @@ export default function Contact() {
       {/* personal-contact  */}
       <div className="row">
         <div className="col-lg-6">
-          <h5 style={{ paddingBottom: "20px" }}>Contact Info</h5>
+          <h5 style={{ paddingBottom: "20px", paddingLeft: "23px" }}>
+            {" "}
+            <i style={{ paddingRight: "7px" }} class="fas fa-info-circle"></i>
+            Contact Info
+          </h5>
           <ul className="li-space-lg p-small">
             <li className="media">
               <i class="fas fa-map-marker-alt contact-details-icon "></i>

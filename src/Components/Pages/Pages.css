@@ -39,8 +39,8 @@
   }
 }
 .vision-card-header {
-  color: "#323232";
-  background-color: aliceblue;
+  color: white;
+  background-color: white;
   font-weight: 200;
   font-size: large;
   font-weight: bolder;
@@ -133,4 +133,11 @@ a:hover {
 }
 p > h4 {
   color: #03045e;
+}
+
+/* home - content  */
+
+.home-vision-p {
+  text-align: justify;
+  padding-top: 3px;
 }

@@ -104,7 +104,10 @@ export default function About() {
             <div className="col-lg-12 ">
               <div className="card-deck">
                 <div className="card">
-                  <div className="card-header vision-card-header">
+                  <div
+                    style={{ background: "#1A374D" }}
+                    className="card-header vision-card-header"
+                  >
                     We believe in Purpose
                   </div>
                   <div className="card-body">
@@ -114,7 +117,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="card">
-                  <div className="card-header vision-card-header">
+                  <div
+                    style={{ background: "#139487", color: "white" }}
+                    className="card-header vision-card-header"
+                  >
                     We are Mentors
                   </div>
                   <div className="card-body">
@@ -124,7 +130,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="card">
-                  <div className="card-header vision-card-header">
+                  <div
+                    style={{ background: "#1C658C" }}
+                    className="card-header vision-card-header"
+                  >
                     We form bonds
                   </div>
                   <div className="card-body">
@@ -138,11 +147,14 @@ export default function About() {
             </div>
           </div>{" "}
           {/*end of first row in cards*/}
-          <div className="row">
+          <div className="row" style={{ paddingBottom: "100px" }}>
             <div className="col-lg-12">
               <div className="card-deck">
                 <div className="card">
-                  <div className="card-header vision-card-header">
+                  <div
+                    style={{ background: "#1572A1" }}
+                    className="card-header vision-card-header"
+                  >
                     We act as catalysts
                   </div>
                   <div className="card-body">
@@ -153,7 +165,10 @@ export default function About() {
                   </div>
                 </div>
                 <div className="card">
-                  <div className="card-header vision-card-header">
+                  <div
+                    style={{ background: "#064635" }}
+                    className="card-header vision-card-header"
+                  >
                     We work as a team
                   </div>
                   <div className="card-body">
