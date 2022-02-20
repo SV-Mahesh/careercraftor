@@ -1,63 +1,62 @@
 import React, { Component } from "react";
+
 import "./Pages.css";
 function Home() {
   return (
     <React.Fragment>
-      <header className="header">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="text-container">
-                <h1>Career Craftors</h1>
-                <p className="p-large p-heading">
-                  A sheer blend of professionalism and creativity
-                </p>
-              </div>{" "}
-              {/* end of text-container */}
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="container carousel-container-section">
+            <div className="slider-section">
+              <div
+                id="carouselExampleControls"
+                class=" slide"
+                data-ride="carousel"
+                data-interval="4000"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class=" img-fluid car-img"
+                      src="images/19873 (1).jpg"
+                      alt="First sslide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class=" img-fluid  car-img"
+                      src="https://p.kindpng.com/picc/s/133-1337272_transparent-market-clipart-different-jobs-cartoon-png-png.png"
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      class=" img-fluid  car-img"
+                      src="https://www.kindpng.com/picc/m/215-2159055_transparent-livingroom-clipart-jobs-cartoon-png-png-download.png"
+                      alt="Second slide"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="image-container">
-                <img
-                  className="img-fluid"
-                  src="images/header-iphone.png"
-                  alt="alternative"
-                />
-              </div>{" "}
-              {/* end of text-container */}
-            </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-        </div>{" "}
-        {/* end of container */}
-        <div className="deco-white-circle-1">
-          <img src="images/decorative-white-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-white-circle-1 */}
-        <div className="deco-white-circle-2">
-          <img src="images/decorative-white-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-white-circle-2 */}
-        <div className="deco-blue-circle">
-          <img src="images/decorative-blue-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-blue-circle */}
-        <div className="deco-yellow-circle">
-          <img src="images/decorative-yellow-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-yellow-circle */}
-        <div className="deco-green-diamond">
-          <img src="images/decorative-green-diamond.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-yellow-circle */}
-      </header>{" "}
+            {/*carousel end*/}
+          </div>
+        </div>
+      </div>
       {/* end of header */}
       {/* end of header */}
       {/* Small Features */}
+      <h4
+        style={{
+          fontFamily: "Lucida Handwriting",
+          textAlign: "center",
+          background: "#086E7D",
+          color: "white",
+          padding: "30px",
+        }}
+      >
+        A Sheer blend of professionalism and creatvity
+      </h4>
       <div className="cards-1">
         <div className="container">
           <div className="row">
@@ -115,7 +114,7 @@ function Home() {
       {/* end of cards-1 */}
       {/* end of small features */}
       {/* Description 1 */}
-      <div id="description" className="basic-1">
+      <div style={{ padding: "0px" }} id="description" className="basic-1">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -246,7 +245,10 @@ function Home() {
       {/* end of details lightbox */}
       {/* end of description 1 details lightbox */}
       {/* Description 2 */}
-      <div className="tabs">
+      <div
+        style={{ padding: "0", background: "#086E7D", color: "white" }}
+        className="tabs"
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -295,7 +297,11 @@ function Home() {
                 </ul>
                 {/* end of tabs links */}
                 {/* Tabs Content */}
-                <div className="tab-content" id="cedoTabsContent">
+                <div
+                  style={{ padding: "0 auto" }}
+                  className="tab-content"
+                  id="cedoTabsContent"
+                >
                   {/* Tab */}
                   <div
                     className="tab-pane fade show active"
@@ -308,6 +314,7 @@ function Home() {
                         lineHeight: "2",
                         paddingTop: "20px",
                         fontSize: "110%",
+                        color: "white",
                       }}
                     >
                       <strong>CAREER CRAFTORS</strong> is a boutique recruitment
@@ -331,6 +338,7 @@ function Home() {
                         lineHeight: "2",
                         paddingTop: "20px",
                         fontSize: "110%",
+                        color: "white",
                       }}
                     >
                       <strong>We offer</strong> Permanent placements and
@@ -354,6 +362,7 @@ function Home() {
                         lineHeight: "2",
                         paddingTop: "20px",
                         fontSize: "110%",
+                        color: "white",
                       }}
                     >
                       <strong>We proud of</strong> More and more blue-chip
@@ -393,90 +402,92 @@ function Home() {
       {/* end of tabs */}
       {/* end of description 2 */}
       {/* Features */}
-      <div id="features" className="basic-2">
+      <div
+        style={{ padding: "3px auto", paddingBottom: "30px" }}
+        id="features"
+        className="basic-2"
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h2>Our Vision</h2>
-              <p
-                style={{ textAlign: "justify", fontSize: "110%" }}
+              <h4
+                style={{
+                  fontFamily: "Lucida Handwriting",
+                  textAlign: "justify",
+                  fontSize: "140%",
+                  color: "#22577A",
+                }}
                 className="p-heading"
               >
-                Career Craftors' mission is to empower our candidates (freshers,
-                graduates, and experienced) to find and pursue a satisfying
-                career path so that they can leave their imprint on the world.
-              </p>
+                <span style={{ color: "#b91646" }}> Career Craftors'</span>{" "}
+                mission is to empower our candidates (freshers, graduates, and
+                experienced) to find and pursue a satisfying career path so that
+                they can leave their imprint on the world.
+              </h4>
             </div>{" "}
             {/* end of div */}
           </div>{" "}
           {/* end of div */}
           <div className="row">
-            <div className="col-lg-5">
-              <ul className="list-unstyled li-space-lg first">
-                <li className="media">
-                  <span className="fa-stack">
-                    <i className="fas fa-circle fa-stack-2x" />
-                    <i className="fas fa-users fa-stack-1x" />
-                  </span>
-                  <div className="media-body">
-                    <h4>We are Metors</h4>
-                    <p className="home-vision-p">
-                      Learning isn't limited to the classroom. We work with
-                      students at any point in their professional growth. We
-                      train students and partners how to navigate the workplace
-                    </p>
-                  </div>
-                </li>
-                <li className="media">
-                  <span className="fa-stack">
-                    <i className="fas fa-circle fa-stack-2x green" />
-                    <i className="fas fa-handshake fa-stack-1x" />
-                  </span>
-                  <div className="media-body">
-                    <h4>We form bonds</h4>
-                    <p className="home-vision-p">
-                      with those we serve by sharing our knowledge, experience,
-                      connections, and enthusiasm. Our valued connections foster
-                      relationships, fostering professions that encourage a
-                      better world.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+            <div className="col-lg-6">
+              <span className="fa-stack">
+                <i className="fas fa-circle fa-stack-2x" />
+                <i className="fas fa-users fa-stack-1x" />
+              </span>
+              <div className="media-body">
+                <h4 className="v-head"> We are Metors</h4>
+                <p className="home-vision-p">
+                  Learning isn't limited to the classroom. We work with students
+                  at any point in their professional growth. We train students
+                  and partners how to navigate the workplace
+                </p>
+              </div>
             </div>{" "}
+            <div className="col-lg-6">
+              <span className="fa-stack">
+                <i className="fas fa-circle fa-stack-2x green" />
+                <i className="fas fa-handshake fa-stack-1x" />
+              </span>
+              <div className="media-body">
+                <h4 className="v-head">We form bonds</h4>
+                <p className="home-vision-p">
+                  with those we serve by sharing our knowledge, experience,
+                  connections, and enthusiasm. Our valued connections foster
+                  relationships, fostering professions that encourage a better
+                  world.
+                </p>
+              </div>
+            </div>{" "}
+          </div>
+          <div className="row" style={{ paddingTop: "8px" }}>
             {/* end of col */}
-            <div className="col-lg-1"></div> {/* end of col */}
-            <div className="col-lg-5">
-              <ul className="list-unstyled li-space-lg">
-                <li className="media">
-                  <span className="fa-stack">
-                    <i className="fas fa-circle fa-stack-2x yellow" />
-                    <i className="fas fa-comments fa-stack-1x" />
-                  </span>
-                  <div className="media-body">
-                    <h4>We are communicatable</h4>
-                    <p className="home-vision-p">
-                      We respect your feedback and enhance ourselves for the
-                      betterment of you
-                    </p>
-                  </div>
-                </li>
-                <li className="media">
-                  <span className="fa-stack">
-                    <i className="fas fa-circle fa-stack-2x blue" />
-                    <i className="fas fa-rocket fa-stack-1x" />
-                  </span>
-                  <div className="media-body">
-                    <h4>Get Things Done</h4>
-                    <p className="home-vision-p">
-                      assisting students in determining their goals and
-                      assisting them in achieving them. We encourage and
-                      challenge students to strive for greater heights. Every
-                      individual is unique, and we meet their various demands.
-                    </p>
-                  </div>
-                </li>
-              </ul>
+            <div className="col-lg-6">
+              <span className="fa-stack">
+                <i className="fas fa-circle fa-stack-2x yellow" />
+                <i className="fas fa-comments fa-stack-1x" />
+              </span>
+              <div className="media-body">
+                <h4 className="v-head">We are communicatable</h4>
+                <p className="home-vision-p">
+                  We respect your feedback and enhance ourselves for the
+                  betterment of you
+                </p>
+              </div>
+            </div>{" "}
+            <div className="col-lg-6">
+              <span className="fa-stack">
+                <i className="fas fa-circle fa-stack-2x blue" />
+                <i className="fas fa-rocket fa-stack-1x" />
+              </span>
+              <div className="media-body">
+                <h4 className="v-head">Get Things Done</h4>
+                <p className="home-vision-p">
+                  assisting students in determining their goals and assisting
+                  them in achieving them. We encourage and challenge students to
+                  strive for greater heights. Every individual is unique, and we
+                  meet their various demands.
+                </p>
+              </div>
             </div>{" "}
             {/* end of col */}
           </div>{" "}
@@ -493,7 +504,10 @@ function Home() {
       {/* end of cards-2 */}
       {/* end of testimonials */}
       {/* Statistics */}
-      <div className="counter">
+      <div
+        className="counter"
+        style={{ background: "#22577A", color: "white" }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -546,60 +560,6 @@ function Home() {
       {/* end of counter */}
       {/* end of statistics */}
       {/* Download */}
-      <div id="download" className="basic-3">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="image-container">
-                <img
-                  className="img-fluid"
-                  style={{ width: "60%" }}
-                  src="images/home-last.jpg"
-                  alt="alternative"
-                />
-              </div>{" "}
-              {/* end of image-container */}
-              <p
-                style={{
-                  lineHeight: "2",
-                  textAlign: "justify",
-                  fontSize: "120%",
-                }}
-                className="p-large"
-              >
-                We were the first to introduce the concept of professional
-                talent solutions, and as the needs of businesses have changed,
-                so have we. Our management team saw the value in shifting to a
-                more specialized talent solutions strategy and began hiring
-                contract workers with greater skill levels.
-              </p>
-            </div>{" "}
-            {/* end of col */}
-          </div>{" "}
-          {/* end of row */}
-        </div>{" "}
-        {/* end of container */}
-        <div className="deco-white-circle-1">
-          <img src="images/decorative-white-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-white-circle-1 */}
-        <div className="deco-white-circle-2">
-          <img src="images/decorative-white-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-white-circle-2 */}
-        <div className="deco-blue-circle">
-          <img src="images/decorative-blue-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-blue-circle */}
-        <div className="deco-yellow-circle">
-          <img src="images/decorative-yellow-circle.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-yellow-circle */}
-        <div className="deco-green-diamond">
-          <img src="images/decorative-green-diamond.svg" alt="alternative" />
-        </div>{" "}
-        {/* end of deco-yellow-circle */}
-      </div>{" "}
       {/* end of basic-3 */}
       {/* end of download */}
     </React.Fragment>

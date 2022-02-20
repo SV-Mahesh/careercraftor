@@ -6,13 +6,16 @@ export default function Contact() {
     <div
       id="description"
       className="container basic-1"
-      style={{ marginTop: "100px" }}
+      style={{ marginTop: "1px" }}
     >
       <div className="row">
-        <div className="col-lg-12" style={{ padding: "30px" }}>
-          <h3 style={{ color: "#de8f40" }}>
+        <div
+          className="col-lg-12"
+          style={{ padding: "30px", paddingTop: "0px" }}
+        >
+          <h3 style={{ color: "#B91646" }}>
             <i
-              style={{ color: "#061408" }}
+              style={{ color: "#B91646" }}
               className="fas fa-address-book contactMain-i"
             ></i>
             Contact us
@@ -28,7 +31,13 @@ export default function Contact() {
       {/* personal-contact  */}
       <div className="row">
         <div className="col-lg-6">
-          <h5 style={{ paddingBottom: "20px", paddingLeft: "23px" }}>
+          <h5
+            style={{
+              paddingBottom: "20px",
+              paddingLeft: "23px",
+              color: "#B91646",
+            }}
+          >
             {" "}
             <i style={{ paddingRight: "7px" }} class="fas fa-info-circle"></i>
             Contact Info
@@ -43,7 +52,7 @@ export default function Contact() {
             </li>
             <li className="media">
               <i className="fas fa-envelope contact-details-icon" />
-              <div className="media-body">careercraftors@gmail.com</div>
+              <div className="media-body">info@careercraftors.com</div>
               {/* <div className="media-body">info@careercraftors.com</div> */}
             </li>
             <li className="media">
@@ -68,7 +77,7 @@ export default function Contact() {
             <div className="card-body ">
               <button type="button" class="btn   ">
                 {" "}
-                <a href="#">
+                <a href="https://forms.gle/fZwXmWsRjv24XQQh6" target="_blank">
                   <i
                     style={{ color: "#1c5473" }}
                     class="fas fa-laptop contactMain-i "
@@ -83,7 +92,7 @@ export default function Contact() {
           <div className="card ch-1">
             <div style={{ paddingRight: "10px" }} className="card-body ">
               <button type="button" class="btn ">
-                <a href="#">
+                <a href="https://forms.gle/JQTQ1jcG7WYLmfdA6" target="_blank">
                   {" "}
                   <i
                     style={{ color: "#141010" }}
@@ -101,7 +110,7 @@ export default function Contact() {
           <div className="card ch-1">
             <div className="card-body">
               <button type="button" class="btn  ">
-                <a href="#">
+                <a href="https://forms.gle/J4ULY9AzEDw3haFa9" target="_blank">
                   <i
                     style={{ color: "#214d27" }}
                     class="fas fa-briefcase-medical contactMain-i "

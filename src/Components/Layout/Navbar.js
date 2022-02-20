@@ -10,16 +10,17 @@ export default function Navbar() {
 
   return (
     <React.Fragment>
-      <nav className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-dark navbar-custom ">
         <div className="container">
           {/* Text Logo - Use this if you don't have a graphic logo */}
           {/* <Link class="navbar-brand logo-text page-scroll" to="/">Career Craftors</Link> */}
           {/* Image Logo */}
           <Link className="navbar-brand logo-image" to="/">
             <img
+              className="logoatnav"
               src="images/logo.png"
               alt="alternative"
-              style={{ height: "5.7rem" }}
+              style={{ height: "6.7rem", width: "17rem" }}
             />
           </Link>
           {/* Mobile Menu Toggle Button */}
@@ -74,6 +75,25 @@ export default function Navbar() {
               >
                 <Link className="nav-link page-scroll" to="contact">
                   CONTACT
+                </Link>
+              </li>
+              <li
+                className={state.title === 5 ? "nav-item active" : "nav-item"}
+                onClick={handleMenu}
+                id={5}
+              >
+                <Link className="nav-link page-scroll" to="contact">
+                  <button
+                    style={{
+                      position: "relative",
+                      bottom: "9px",
+                      margnTop: "0",
+                    }}
+                    className="btn btn-danger mt-0"
+                  >
+                    {" "}
+                    GET IN TOUCH WITH US
+                  </button>
                 </Link>
               </li>
               {/* Dropdown Menu */}

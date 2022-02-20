@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -15,10 +16,9 @@ export default function Footer() {
                   We are extremely proud to launch the firm with a social motto
                   of serving the society and the student community as a whole
                   and shall strive to continue providing excellence in our
-                  processes and services to our internal and external
-                  stakeholders. The purpose is to help create a niche path for
-                  students (higher studies & career) to choose the right
-                  direction in life especially students with rural background.
+                  processes and services.The purpose is to help is to help
+                  create a niche path for students and professionals to choose
+                  the right direction.
                 </p>
               </div>{" "}
               {/* end of footer-col */}
@@ -33,7 +33,7 @@ export default function Footer() {
                   </li>
                   <li className="media">
                     <i className="fas fa-envelope" />
-                    <div className="media-body">careercraftors@gmail.com</div>
+                    <div className="media-body">info@careercraftors.com </div>
                     {/* <div className="media-body">info@careercraftors.com</div> */}
                   </li>
                   <li className="media">
@@ -54,24 +54,30 @@ export default function Footer() {
                   </li>
                 </ul>
                 <div className="col-sm-12">
-                  <span className="fa-stack">
-                    {/* <a href="#your-link"> */}
-                    <i className="fas fa-circle fa-stack-2x" />
-                    <i className="fab fa-facebook-f fa-stack-1x" />
-                    {/* </a> */}
-                  </span>
-                  <span className="fa-stack">
-                    {/* <a href="#your-link"> */}
-                    <i className="fas fa-circle fa-stack-2x" />
-                    <i className="fab fa-twitter fa-stack-1x" />
-                    {/* </a> */}
-                  </span>
-                  <span className="fa-stack">
-                    {/* <a href="#your-link"> */}
-                    <i className="fas fa-circle fa-stack-2x" />
-                    <i className="fab fa-pinterest-p fa-stack-1x" />
-                    {/* </a> */}
-                  </span>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100078336843260 "
+                    target="_blank"
+                  >
+                    <span className="fa-stack">
+                      {/* <a href="#your-link"> */}
+                      <i className="fas fa-circle fa-stack-2x" />
+                      <i className="fab fa-facebook-f fa-stack-1x" />
+                      {/* </a> */}
+                    </span>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/career-craftors-646766128/"
+                    target="_blank"
+                  >
+                    <span className="fa-stack">
+                      {/* <a href="#your-link"> */}
+                      <i className="fas fa-circle fa-stack-2x" />
+                      <i className="fab fa-linkedin fa-stack-1x" />
+                      {/* </a> */}
+                    </span>
+                  </a>
+
                   <span className="fa-stack">
                     {/* <a href="#your-link"> */}
                     <i className="fas fa-circle fa-stack-2x" />

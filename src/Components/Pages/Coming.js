@@ -5,7 +5,12 @@ export default function Coming() {
   return (
     <div id="description" className="basic-1" style={{ marginTop: "100px" }}>
       <div className="container-fluid" style={{ width: "90%" }}>
-        <div className="row services-row">
+        <div
+          style={{
+            paddingTop: "0",
+          }}
+          className="row services-row"
+        >
           <div className="col-lg-3">
             <img
               className="serv-img-1"
@@ -77,7 +82,12 @@ export default function Coming() {
             </p>
           </div>
         </div>
-        <div className="row services-row">
+        <div
+          style={{
+            paddingBottom: "0",
+          }}
+          className="row services-row "
+        >
           <div className="col-lg-12">
             <img
               style={{ float: "right" }}

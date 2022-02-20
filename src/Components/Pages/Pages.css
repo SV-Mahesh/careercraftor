@@ -87,7 +87,7 @@ a:hover {
 
 .contact-details-icon {
   font-size: x-large;
-  color: #de8f40;
+  color: #b91646;
   padding-right: 20px;
   margin-bottom: 2%;
 }
@@ -141,3 +141,31 @@ p > h4 {
   text-align: justify;
   padding-top: 3px;
 }
+.carousel-images {
+}
+
+.v-head {
+  padding: 5px;
+}
+.header-top-home {
+  top: 0;
+}
+.carousel-container-section {
+  width: fit-content;
+  height: 400px;
+}
+.car-img {
+  height: 350px;
+  width: fit-content;
+}
+@media only screen and (max-width: 990px) {
+  .carousel-container-section {
+    width: 300px;
+  }
+  .car-img {
+    height: 350px;
+    width: 295px;
+  }
+}
+
+/* navbar  */
